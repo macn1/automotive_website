@@ -17,10 +17,10 @@ const HeroSection = () => {
                     viewport={{ once: true }}
                     className="text-2xl md:text-5xl font-semibold text-gray-900 leading-tight"
                 >
-                    Precision Mechanical Engineering.
+                   Returning Automotive Icons to 
 
                     <br />
-                    Global Standards. Local Trust.
+                  Their Original Glory.
                 </motion.h1>
 
                 <motion.p
@@ -30,7 +30,7 @@ const HeroSection = () => {
                     viewport={{ once: true }}
                     className="mt-6 max-w-3xl mx-auto text-gray-600 text-sm md:text-base"
                 >
-                    Advanced diagnostics, Tesla-recognised EV expertise, OEM-level coding, and transparent Digital Vehicle Information tracking across India and Thailand.
+                    At AJP HQ, restoration is not just a service — it’s a commitment to craftsmanship. We specialize in bringing vehicles back to stock condition with unmatched accuracy, authenticity, and care.
                 </motion.p>
 
                 <motion.div
@@ -48,8 +48,7 @@ const HeroSection = () => {
                         whileTap={{ scale: 0.95 }}
                         className="bg-red-600 text-white md:px-6 px-2 md:py-3 py-1 text-sm font-medium rounded hover:bg-red-700 transition-all"
                     >
-                        Book Mechanical Inspection
-                    </motion.button>
+Book Your Shecudle                    </motion.button>
 
                     {/* <motion.button
                         whileHover={{
@@ -74,7 +73,7 @@ const HeroSection = () => {
                     className="relative  shadow-2xl"
                 >
                     <img
-                        src="/assets/mechanical/hero.jpg"
+                        src="/assets/restoration/hero.jpg"
                         alt="Luxury Car"
                         className="w-full h-[220px] md:h-[450px] lg:h-[420px] object-cover object-center"
                     />

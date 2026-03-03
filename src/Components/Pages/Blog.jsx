@@ -94,12 +94,12 @@ export default function WorkInProgress() {
           >
             <div className="flex justify-between text-sm text-gray-600 mb-2">
               <span>Development Progress</span>
-              <span>45%</span>
+              <span>60%</span>
             </div>
             <div className="w-full bg-gray-200 rounded-full h-2.5">
               <motion.div
                 initial={{ width: 0 }}
-                animate={{ width: "45%" }}
+                animate={{ width: "60%" }}
                 transition={{ duration: 1, delay: 0.5 }}
                 className="bg-blue-600 h-2.5 rounded-full"
               />

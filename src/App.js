@@ -6,6 +6,7 @@ import Blog from './Components/Pages/Blog'
 import Contact from './Components/Pages/Contact'
 import ScrollToTop from './Components/SCrolltop'
 import Mechanical from './Components/Pages/Mechanical'
+import Restoratoin from './Components/Pages/Restoratoin'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         <Route path="/detailing" element={<Blog />} />
         <Route path="/performance" element={<Blog />} />
 
-        <Route path="/restoration" element={<Blog />} />
+        <Route path="/restoration" element={<Restoratoin />} />
 
         
 
