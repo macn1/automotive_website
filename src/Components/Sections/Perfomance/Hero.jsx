@@ -17,10 +17,10 @@ const HeroSection = () => {
                     viewport={{ once: true }}
                     className="text-2xl md:text-5xl font-semibold text-gray-900 leading-tight"
                 >
-                    Precision Mechanical Engineering.
+                  Performance &
 
                     <br />
-                    Global Standards. Local Trust.
+                   Precision Engineering
                 </motion.h1>
 
                 <motion.p

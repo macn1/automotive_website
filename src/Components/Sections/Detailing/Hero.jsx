@@ -17,10 +17,8 @@ const HeroSection = () => {
                     viewport={{ once: true }}
                     className="text-2xl md:text-5xl font-semibold text-gray-900 leading-tight"
                 >
-                    Precision Mechanical Engineering.
-
-                    <br />
-                    Global Standards. Local Trust.
+                   Restore. Protect. Enhance.
+                   
                 </motion.h1>
 
                 <motion.p
@@ -30,8 +28,7 @@ const HeroSection = () => {
                     viewport={{ once: true }}
                     className="mt-6 max-w-3xl mx-auto text-gray-600 text-sm md:text-base"
                 >
-                    Advanced diagnostics, Tesla-recognised EV expertise, OEM-level coding, and transparent Digital Vehicle Information tracking across India and Thailand.
-                </motion.p>
+                  Car detailing is a deep restoration process that removes swirl marks, oxidation, light scratches and restores gloss to your vehicle’s paint surface.          </motion.p>
 
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -48,8 +45,7 @@ const HeroSection = () => {
                         whileTap={{ scale: 0.95 }}
                         className="bg-red-600 text-white md:px-6 px-2 md:py-3 py-1 text-sm font-medium rounded hover:bg-red-700 transition-all"
                     >
-                        Book Mechanical Inspection
-                    </motion.button>
+                      Book Appointment        </motion.button>
 
                     {/* <motion.button
                         whileHover={{
@@ -74,9 +70,9 @@ const HeroSection = () => {
                     className="relative  shadow-2xl"
                 >
                     <img
-                        src="/assets/mechanical/hero.jpg"
+                        src="/assets/detail/img3.jpg"
                         alt="Luxury Car"
-                        className="w-full h-[220px] md:h-[450px] lg:h-[420px] object-cover object-center"
+                        className="w-full h-[220px] md:h-[450px] lg:h-[420px] object-cover object-[center_70%]"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
                 </motion.div>

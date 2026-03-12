@@ -96,7 +96,7 @@ const GlobalHeroSection = () => {
         animate="visible"
       >
         <motion.h1
-          className="text-3xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
+          className="text-2xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
           variants={textVariants}
         >
           Redefining Mechanical Excellence
@@ -105,7 +105,7 @@ const GlobalHeroSection = () => {
         </motion.h1>
 
         <motion.button
-          className="bg-red-600 text-white px-6 py-3 text-sm md:text-base font-semibold"
+          className="bg-red-600 text-white px-6 py-3 text-xs md:text-base font-semibold"
           variants={buttonVariants}
           whileHover="hover"
           whileTap="tap"

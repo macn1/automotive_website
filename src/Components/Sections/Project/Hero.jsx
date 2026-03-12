@@ -17,10 +17,8 @@ const HeroSection = () => {
                     viewport={{ once: true }}
                     className="text-2xl md:text-5xl font-semibold text-gray-900 leading-tight"
                 >
-                    Precision Mechanical Engineering.
+                 Our Work
 
-                    <br />
-                    Global Standards. Local Trust.
                 </motion.h1>
 
                 <motion.p
@@ -30,7 +28,7 @@ const HeroSection = () => {
                     viewport={{ once: true }}
                     className="mt-6 max-w-3xl mx-auto text-gray-600 text-sm md:text-base"
                 >
-                    Advanced diagnostics, Tesla-recognised EV expertise, OEM-level coding, and transparent Digital Vehicle Information tracking across India and Thailand.
+                  Explore some of the vehicles we’ve transformed through our detailing, paint, and restoration services. We treat every car as a masterpiece.
                 </motion.p>
 
                 <motion.div
@@ -48,8 +46,7 @@ const HeroSection = () => {
                         whileTap={{ scale: 0.95 }}
                         className="bg-red-600 text-white md:px-6 px-2 md:py-3 py-1 text-sm font-medium rounded hover:bg-red-700 transition-all"
                     >
-                        Book Mechanical Inspection
-                    </motion.button>
+Book Appointment                    </motion.button>
 
                     {/* <motion.button
                         whileHover={{
@@ -65,22 +62,6 @@ const HeroSection = () => {
                 </motion.div>
             </motion.div>
 
-            <div className="w-full">
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{ duration: 1.2 }}
-                    viewport={{ once: true }}
-                    className="relative  shadow-2xl"
-                >
-                    <img
-                        src="/assets/mechanical/hero.jpg"
-                        alt="Luxury Car"
-                        className="w-full h-[220px] md:h-[450px] lg:h-[420px] object-cover object-center"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
-                </motion.div>
-            </div>
         </section>
     );
 };

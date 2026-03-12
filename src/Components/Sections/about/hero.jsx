@@ -8,7 +8,7 @@ const HeroSection = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-        className="bg-white text-center  md:mt-20 mt-10 md:py-6 py-2 px-6"
+        className="bg-white text-center  md:mt-20 mt-16 md:py-6 py-2 px-6"
       >
         <motion.h1
           initial={{ opacity: 0, y: 40 }}

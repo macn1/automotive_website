@@ -15,7 +15,7 @@ export default function Header() {
 
   const rightNavItems = [
     { label: "Mechanical", path: "/mechanical" },
-    { label: "Bodyshop", path: "/bodyshop" },
+    { label: "Paint shop", path: "/paint-shop" },
     { label: "Detailing", path: "/detailing" },
     { label: "Performance", path: "/performance" },
     { label: "Restoration", path: "/restoration" },
