@@ -39,23 +39,33 @@ const Banner = () => {
 
                     {/* Main Heading */}
                     <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-4xl font-bold mb-4 sm:mb-6 leading-tight sm:leading-tight">
-                        Excellence In
-                        <span className="block text-red-500 mt-1 sm:mt-2">Automotive</span>
-                        Maintenance & Restorations
+                        Bespoke Luxury Car
+                        <span className="block text-red-500 mt-1 sm:mt-2">Restorations & Upgrades</span>
                     </h1>
 
                     {/* Description */}
                     <p className="text-base sm:text-lg md:text-xl mb-8 sm:mb-10 text-gray-200 leading-relaxed">
                         <span className="block mb-3 font-medium text-white">
-                            Specializing in Rolls Royce and Bentley repairs and spare parts.
+                            Specialising In Rolls Royce & Bentley Maintenance.
                         </span>
                         <span className="block mb-3">
-                            Offering comprehensive
-                            <span className="font-semibold text-white"> mechanical, paint shop, denting and detailing</span>
-                            departments since 2014 for luxury car owners in
-                            <span className="font-medium text-white"> India and Great Britain</span>.
+                            With over 16 years' experience maintaining India's elite and most challenging classic car
+                            restorations, we aim to offer our consumer's a niche experience that's transparent and enjoyable
+                            from the regular run of mill. We're a result based business that thrives on achieving happy customers.
                         </span>
 
+                        {/* Highlighted Car Names */}
+                        <span className="block mt-4 text-sm sm:text-base">
+                            <span className="inline-block bg-gradient-to-r from-red-600/20 to-red-600/10 px-3 py-1.5 rounded-md mr-2 mb-2 border border-red-500/30 font-medium">
+                                Nissan 300zx Fairlady 2JZ
+                            </span>
+                            <span className="inline-block bg-gradient-to-r from-red-600/20 to-red-600/10 px-3 py-1.5 rounded-md mr-2 mb-2 border border-red-500/30 font-medium">
+                                Rolls Royce Phantom N78
+                            </span>
+                            <span className="inline-block bg-gradient-to-r from-red-600/20 to-red-600/10 px-3 py-1.5 rounded-md mb-2 border border-red-500/30 font-medium">
+                                Mercedes E W124
+                            </span>
+                        </span>
                     </p>
 
                     {/* Features Grid */}
@@ -100,21 +110,18 @@ const Banner = () => {
                             </svg>
                         </button>
 
-                        <button className="group bg-gradient-to-r from-red-600 to-red-700 text-white px-4 py-2 sm:px-5 sm:py-2.5 font-semibold text-sm sm:text-base hover:from-red-700 hover:to-red-800 transition-all duration-300 shadow-md hover:shadow-xl transform hover:-translate-y-0.5 flex items-center justify-center gap-1.5">
+                        {/* <button className="group bg-gradient-to-r from-red-600 to-red-700 text-white px-4 py-2 sm:px-5 sm:py-2.5 font-semibold text-sm sm:text-base hover:from-red-700 hover:to-red-800 transition-all duration-300 shadow-md hover:shadow-xl transform hover:-translate-y-0.5 flex items-center justify-center gap-1.5">
                             <span>Explore Services</span>
                             <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4 group-hover:rotate-90 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                             </svg>
-                        </button>
+                        </button> */}
                     </div>
+                    {/* Stats */}
                     {/* Stats */}
                     <div className="pt-4 sm:pt-6 border-t border-white/20 mb-5">
                         <p className="text-xs sm:text-sm text-gray-300">
-                            Trusted by <span className="font-bold text-white">500+</span> luxury vehicle owners
-                            <span className="mx-2 hidden sm:inline">|</span>
-                            <span className="block sm:inline mt-1 sm:mt-0">
-                                <span className="font-bold text-white">98%</span> customer satisfaction rate
-                            </span>
+                            Trusted by <span className="font-bold text-white">65+ Families</span> In India, United Kingdom & Thailand
                         </p>
                     </div>
                 </div>

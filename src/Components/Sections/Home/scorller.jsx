@@ -2,14 +2,15 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useState } from "react"
 
 const products = [
-  { title: "Product 1", price: "$120", image: "/assets/products/prod1.jpg" },
-  { title: "Product 2", price: "$135", image: "/assets/products/prod2.jpg" },
-  { title: "Product 3", price: "$150", image: "/assets/products/prod3.jpg" },
-  { title: "Product 4", price: "$165", image: "/assets/products/prod4.jpg" },
-  { title: "Product 5", price: "$180", image: "/assets/products/prod5.jpg" },
-  { title: "Product 6", price: "$195", image: "/assets/products/prod6.jpg" },
-  { title: "Product 7", price: "$210", image: "/assets/products/prod7.jpg" },
-  { title: "Product 8", price: "$225", image: "/assets/products/prod8.jpg" },
+  { title: "Key Chain Holder", price: "190 ₹ ", image: "/assets/products/prod1.jpg" },
+  { title: "Face masks", price: "50 ₹", image: "/assets/products/prod2.jpg" },
+  { title: "Bags", price: "150 ₹", image: "/assets/products/prod3.jpg" },
+  { title: " T-Shirts", price: "750 ₹", image: "/assets/products/prod4.jpg" },
+    { title: "Key Chain Holder", price: "190 ₹ ", image: "/assets/products/prod1.jpg" },
+  { title: "Face masks", price: "50 ₹", image: "/assets/products/prod2.jpg" },
+  { title: "Bags", price: "150 ₹", image: "/assets/products/prod3.jpg" },
+  { title: " T-Shirts", price: "750 ₹", image: "/assets/products/prod4.jpg" },
+
 ]
 
 const CARD_WIDTH = 280 // card width + gap

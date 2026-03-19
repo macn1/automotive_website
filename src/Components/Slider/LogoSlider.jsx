@@ -2,13 +2,13 @@ import { motion } from "framer-motion"
 import { useEffect, useRef, useState } from "react"
 
 const logos = [
-    "/assets/logos/akra.png",
+    "/assets/logos/akrapovic.png",
     "/assets/logos/f1.png",
-   "/assets/logos/capr.png",
-     "/assets/logos/akra.png",
-    "/assets/logos/f1.png",
-    "/assets/logos/vossn.png",
-     "/assets/logos/capr.png",
+   "/assets/logos/capristo.png",
+     "/assets/logos/cobr.png",
+    "/assets/logos/hre.png",
+    "/assets/logos/vossen.png",
+     "/assets/logos/bbs.png",
 ]
 
 export default function LogoSlider() {
@@ -40,7 +40,7 @@ export default function LogoSlider() {
         <div className="flex flex-col gap-1">
             {/* Heading */}
             <h2 className="md:text-[32px] text-[20px] font-[Open Sans] font-bold text-black text-left m-0 leading-tight">
-                Performance Tuning
+              Performance Partners
             </h2>
 
             {/* Slider */}
