@@ -1,9 +1,9 @@
 import RevenueChart from '../../charts/RevenueChart'
-import DonutChart   from '../../charts/DonutChart'
+import DonutChart from '../../charts/DonutChart'
 
 export default function ChartsRow() {
   return (
-    <div style={{ display:'grid', gridTemplateColumns:'1.6fr 1fr', gap:'16px', marginBottom:'24px' }}>
+    <div className="charts-row">
       <div className="panel">
         <div className="panel-title">Monthly Revenue</div>
         <RevenueChart />
@@ -15,3 +15,4 @@ export default function ChartsRow() {
     </div>
   )
 }
+
